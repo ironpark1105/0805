@@ -1,0 +1,43 @@
+.box{
+    color: red;
+}
+
+.box a{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover{
+color: red;
+}
+a:active{
+color: blue;
+}
+
+
+li:first-child{
+    background: burlywood;
+}
+
+li:last-child{
+    background: cadetblue;
+}
+
+li:nth-child(2){
+    background: crimson;
+}
+
+li:nth-child(odd){
+    background: yellowgreen;
+}
+
+a{
+    position: relative;
+}
+a:hocer::after{
+    position: absolute;
+    content: "http://www.vsner.com";
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    background-color:cadetblue ;
+}

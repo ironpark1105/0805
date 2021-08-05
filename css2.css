@@ -1,0 +1,167 @@
+p::first-line{
+    color: chocolate;
+    text-decoration: underline;
+}
+p::first-letter{
+font-size: 100px;
+}
+
+p::selection{
+    background: yellow;
+}
+
+.container{
+    width: 1000px;
+    margin: 40px auto;
+}
+.imgbox, .imgbox2{
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.imgbox img{
+    width: 100%;
+}
+
+.imgbox:first-child{
+    opacity: 0.2;
+}
+
+.imgbox:nth-child(2){
+    opacity: 0.5;
+}
+
+.imgbox:last-child{
+    opacity: 1;
+}
+
+.img{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+}
+.img span{
+    padding: 10px 30px;
+    background: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.imgbox:first-child .img{
+    background-image: url(../코딩/20210614-39338.jpg);
+    background-size: contain;
+}
+.imgbox:nth-child(2) .img{
+    background-image: url(../코딩/20210625-39388.jpg);
+    background-size: contain;
+}
+.imgbox:last-child .img{
+    background-image: url(../코딩/20210802-39811.jpg);
+    background-size: contain;
+}
+
+.imgbox2:first-child .img{
+    background-image: url(../코딩/1\ \(1\).gif);
+    background-size: contain;
+}
+
+.imgbox2:nth-child(2) .img{
+    background-image: url(../코딩/1\ \(1\).jpg);
+    background-size: contain;
+}
+
+.imgbox2:last-child .img{
+    background-image: url(../코딩/1\ \(2\).jpg);
+    background-size: contain;
+}
+
+.clear{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
+    width: 200px;
+    background-color: #ddd;
+    border: 1px solid black;
+}
+
+
+li a{
+    display: block;
+    padding: 8px 16px;
+}
+
+li{
+    border-bottom: black 1px dashed;
+}
+
+li:last-child{
+    border: none;
+}
+
+
+li a:hover, .act{
+    background-color: darkcyan;
+    color: #FFF;
+}
+
+ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+ul.horizintal{
+    width: 100%;
+
+}
+ul.horizintal li{
+    border: none;
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+
+ul.horizintal li.floatright{
+    float: right;
+    background: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
